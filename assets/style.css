@@ -3,42 +3,50 @@
     padding: 0;
     box-sizing:border-box;
 }
+html{
+    font-family:sans-serif; 
+
+}
 header{
-    margin: 0 auto;
-    width: 80%;
-    text-align: center; 
-    font-family:sans-serif;   
+    width: 100%;
+    text-align: center;   
+    padding: 15px; 0;
 }
 h1{
-    color: palevioletred;
-    margin-bottom: 30px;
-    
+    font-size: 30px;
+    color: #e53170;
+    font-weight: 700;
 }
 
 img{
     float: left;
     height: 60px;
     width: 60px;
+    height: 100px;
+    width: 100px;
+    float: left;
 }
 
-.clearfix{
+.clearfix::after{
     clear: both;
 }
-.section{
-    float:left;
-    width: calc(100%/3);
+.box{
+    margin: 20px 10px;
+    height: 100px;
+    width: calc(100% / 3 - 20px);
+    background-color: #0f0e17;
+    float: left;
+    color: white;
+}
+
+.info{
+    height: 100%;
+    width: calc(100% - 100px);
+    padding: 10px;
+    float: left;   
     
 }
-.cards{
-    background-color: #fff;
-	border-radius: 4px;
-	max-width: 400px;
-	margin: 10% auto;
-	height: 100px;
-	position: relative;
-	padding: 34px;
-	color: #444;
-    size: 50px;
-    
-	
-}
+.container{
+    width: 80%;
+    margin: 0 auto;
+     }
