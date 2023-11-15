@@ -8,13 +8,18 @@ html{
 
 }
 header{
-    width: 100%;
+    margin: 0 auto;
+    width: 80%;
     text-align: center;   
     padding: 15px; 0;
 }
 h1{
     font-size: 30px;
     color: #e53170;
+    font-weight: 900;
+}
+
+h2{
     font-weight: 700;
 }
 
@@ -37,6 +42,8 @@ img{
     background-color: #0f0e17;
     float: left;
     color: white;
+    box-shadow:5px 5px 5px darkslategrey;
+
 }
 
 .info{
@@ -49,4 +56,7 @@ img{
 .container{
     width: 80%;
     margin: 0 auto;
-     }
+}
+span{
+    color: deepskyblue;
+}
